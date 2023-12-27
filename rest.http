@@ -1,0 +1,12 @@
+### teste de tabela
+GET http://localhost:3333/hello
+
+
+### Create Transaction
+POST http://localhost:3333/transact
+
+{
+    "title": "Freelance",
+    "amount": 8000,
+    "type": "credit"
+}
